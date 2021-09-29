@@ -2,6 +2,14 @@
 
 ![Stock Sentiment](Images/sentimental.jpeg)
 
+---
+## Solution to the Challenge below:
+The solution can be found in the <a href="https://github.com/eriklarson33/HW_12-Crypto_Asset_NLP_and_Sentiment/blob/master/Starter_Code/crypto_sentiment.ipynb">crypto_sentiment jupyter notebook</a>.
+
+Important thing to note is that I started saving the DataFrame I created from the NewsAPI data set into separate CSV files labeled by date to avoid too many calls to the API within a day.  Therefore, the calls to the API have been commented out in the code and instead I pull from the existing CSV files saved.
+To change this, simply uncomment the API calls and then comment out the read_csv code.
+
+
 ## Background
 
 There's been a lot of hype in the news lately about cryptocurrency, so you want to take stock, so to speak, of the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
